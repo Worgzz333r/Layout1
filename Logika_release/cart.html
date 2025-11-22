@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stone Hearts Cart</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Kameron' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quando&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg menu-bg">
+      <div class="container">
+        <img class="me-3 logo-img" src="img/dr-stone-img.png" alt="Logo" height="40"
+          class="d-inline-block align-text-top">
+        <span class="fs-2 fw-bold text-unwrap" style="color:#fff4e6">
+          Stone Hearts
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-5 fs-5" id="navbarSupportedContent" style="height: 40px;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="color: #FFF4E6BF;" aria-current="page" href="index.html">Main
+                page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #FFF4E6;" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #FFF4E6BF;" href="order.html">Order</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2 search-bar" type="search" placeholder="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-content-bg">
+
+      <div class="anim-cont container py-5">
+
+        <div class="cart-page-title fs-2 fw-bold py-2">
+
+          <div class="ps-1">
+            <div class="clear-buttons d-none">
+              
+              <button class="clear-btn fw-medium"><svg class="clear-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-trash">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 7l16 0" />
+                <path d="M10 11l0 6" />
+                <path d="M14 11l0 6" />
+                <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+                <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+              </svg>Clear All</button>
+            </div>
+          </div>
+
+          <span class="cart-title ">Cart</span>
+        </div>
+
+        <div class="cart-list cart-list-format container p-2">
+        </div>
+
+        <div class="total-div py-2 fs-4 px-5">
+          <div class="total-container d-none fw-semibold ">
+          Total: <span class="currency-sign">$</span><span class="total"></span>
+        </div>
+          <a href="order.html">
+            <button class="go-to-order-btn p-1 px-4 fw-semibold d-none">Make an order</button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-grid py-3">
+      <div class="logo-container">
+        <img class="me-3 logo-img" src="img/dr-stone-img.png" alt="Logo" height="40">
+        <span class="d-inline-block align-text-top logo-text">
+          Stone Hearts</span>
+      </div>
+      <div class="contacts-container">
+        <ul class="contacts">
+          <li>
+            <img src="../img/ghub-logo.png" alt="github-logo" height="40">
+            <a href="https://github.com/Worgzz333r/Logika-release.git">github repository link</a>
+          </li>
+          <li>tel: +38(999) 333 44 44</li>
+          <li>stonehearts2093@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</html>
